@@ -39,12 +39,17 @@ a {
     justify-content: center;
 }
 
+
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     padding: 0;
 
+}
+
+main h2{
+    padding-left: 10px;
 }
 
 .bigbox{
@@ -54,5 +59,20 @@ main {
     grid-column-end: 4;
     background-color: silver;
     margin: 1px;
+
+}
+
+footer {
+    background-color: rgb(105, 101, 101);
+    color: white;
+    padding: 2px solid black;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+footer p {
+    font-size: small;
+    text-align: center;
+    grid-row-start:4 ;
 
 }
