@@ -16,19 +16,15 @@ header h1 {
 }
 
 header nav {
-    display: grid;
-    align-items: center;
+    display: flex;
+    justify-content: space-around;
     background-color: black;
 
 }
 
-header nav ul{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+li {
+    display: flex;
     justify-content: center;
-    list-style-type: none;
-    padding-left: 0;
 }
 
 a {
