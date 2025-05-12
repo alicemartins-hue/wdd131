@@ -5,4 +5,4 @@ currentYear.innerHTML = `© <span class="highlight">${today.getFullYear()} Alice
 
 
 const lastModified = document.querySelector("#lastModified");
-lastModified.innerHTML = `Last modified: <span class="highlight">${document.lastModified}</span>`;
+lastModified.innerHTML = `Last modified: <span class="highlight"> ${document.lastModified}</span>`;
