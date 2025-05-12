@@ -86,14 +86,14 @@ footer p{
 
 .container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 25% 25% 25%;
     grid-template-rows: 1fr 1fr 1fr;
 }
 
 .card1{
     display:grid;
     grid-column: 1/4;
-    grid-row: 1/4;
+    grid-row: 1/3;
     border: 1px solid var(--principal-color);
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 20% 1fr;
@@ -101,14 +101,13 @@ footer p{
 }
 
 .card1 img{
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     grid-column: 3;
-    grid-row: 1/3;
-    border-radius: 50%;
-    margin: 15px;
+    grid-row: 1/4;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-left: 20px;
+    align-items: center;
 }
 
 .quadradinhos {
@@ -128,4 +127,37 @@ footer p{
     font-family: var(--font-secondary);
     display: flex;
     
+}
+
+.card2 img{
+    width: 100%;
+    height: 100%;
+    grid-column: 3;
+    grid-row: 3;
+ }
+ .card2{
+    display:grid;
+    grid-column: 4;
+    grid-row: 1/4;
+    border: 1px var(--principal-color);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20% 1fr 1fr;
+    padding: 40px;
+    margin-left: 20px;
+    border-radius: 5%;
+    background-color: rgba(128, 128, 128, 0.344);
+ }
+ .card2 h2{
+    grid-column: 1/4;
+    grid-row-start: 1;
+    font-size: 30px;
+    color: var(--principal-color);
+    font-family: var(--font-secondary);
+  }
+.card2 p{
+    grid-column: 1/4;
+    grid-row: 2;
+    font-size: 20px;
+    color: var(--principal-color);
+    font-family: var(--font-secondary);
 }
