@@ -1,0 +1,25 @@
+@media screen and (min-width: 500px)
+{ 
+    header{
+        background-color: black;
+        color: rgb(255, 249, 249);
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        background-color: #dcd7d7;
+        padding: 1rem;
+    }
+
+    section{
+        border: 1px solid rgba(0, 0, 0, 0.393);
+        padding: 1rem;
+        background-color: white;
+    }
+
+    h1{
+        margin: 1rem;
+    }
+} 
+
