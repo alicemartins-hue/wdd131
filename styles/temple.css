@@ -13,7 +13,17 @@ header p{
     font-size: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #36454f;
+
 }
+
+
+#menu-button {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;}
+
 
 header,
 main {
@@ -35,6 +45,7 @@ nav ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap:20px;
 }
 
 nav a {
@@ -58,6 +69,26 @@ main{
     grid-template-rows: auto;
     max-width: 800px;
     margin: 0 auto;
+}
+
+@media (max-width:768px) {
+    #menu-button{
+        display: block;
+    }
+
+    nav ul{
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        background: #f0f0f0;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
 }
 
 
