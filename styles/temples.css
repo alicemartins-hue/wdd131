@@ -30,7 +30,7 @@ main {
     margin: 0 auto;
 }
 
-h1 {
+h1, h2 {
     font-size: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#36454f;
