@@ -11,7 +11,7 @@
         grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
         padding: 15px;
     }
-    main h1{
+    main h2{
         text-align: center;
         justify-content: center;
         text-decoration: underline;
