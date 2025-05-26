@@ -1,0 +1,27 @@
+@media (min-width: 768px){
+    main{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr auto;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    section{
+        display: grid;
+        grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+        padding: 15px;
+    }
+    main h1{
+        text-align: center;
+        justify-content: center;
+        text-decoration: underline;
+        margin-top: 55px;
+    }
+    figcaption{
+        text-align: center;
+        justify-content: center;
+    }
+    figure{
+        margin: 10px;
+    }
+}

@@ -1,16 +1,18 @@
 header {
-    background-color: #bbb;
+    background-color: #bbbbbbd2;
     display: grid;
     grid-gap: 1rem;
     padding: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0 30px #333;
-    grid-template-columns: 1fr 1fr;
+    box-shadow: 0 0 0px #333;
+    grid-template-columns: 60% 1fr;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-header h1{
+header p{
     padding-left: 15px;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #36454f;
 }
 
 header,
@@ -32,11 +34,11 @@ nav ul {
     list-style: none;
     display: flex;
     flex-direction: row;
-    padding-right: 35px;
+    justify-content: center;
 }
 
 nav a {
-    display: block;
+    display: flex;
     color: #fff;
     text-align: center;
     padding: 1rem;
