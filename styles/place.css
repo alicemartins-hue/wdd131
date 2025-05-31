@@ -7,8 +7,9 @@ body{
 }
 
 header{
-    border: 5px solid rgb(250, 198, 134);
+    border: 5px 0px 0px 0px solid rgb(250, 198, 134);
     border-bottom: 25px solid rgb(253, 202, 139);
+    
 }
 h1{
     text-align: center;
@@ -20,3 +21,39 @@ h1{
     object-fit: cover;
 }
 
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(248, 245, 242);
+    text-align: center;
+    justify-content: center;
+}
+
+.data{
+    padding: 15px;
+    grid-template-rows: 2/3;
+}
+h2{
+    font-size:xx-large;
+}
+
+.weather{
+    grid-template-rows: 3/4;
+}
+
+footer{
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(253, 202, 139);
+    padding: 20px;
+   
+}
+#lastModified{
+    font-size: small;
+}
+#currentYear{
+    font-weight: bold;
+}

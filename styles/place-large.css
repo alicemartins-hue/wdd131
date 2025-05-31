@@ -1,3 +1,41 @@
 @media(min-width: 768px){
+    .hero img{
+        width: 100%;
+        display: block;
 
+    }
+    .hero{
+        position: relative;
+    }
+
+    .data, .weather{
+        position: absolute;
+        color: rgb(59, 54, 48);
+        background-color: aliceblue;
+    }
+
+    .data{
+        left: 1100px;
+        bottom:150px;
+        border: 20px solid bisque;
+        box-shadow: 4px 4px 8px rgb(73, 41, 2);
+
+    }
+
+    .weather{
+        left: 125px;
+        top: 800px;
+        padding: 20px;
+        border: 20px solid bisque;
+        box-shadow: 4px 4px 8px rgb(73, 41, 2);
+
+    }
+
+    main{
+        grid-template-rows: 1fr;
+    }
+
+    h1{
+        font-size: xx-large;
+    }
 }
