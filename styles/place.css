@@ -1,0 +1,23 @@
+/*mobile*/
+
+
+body{
+    color:rgb(45, 45, 17);
+    background-color: bisque;
+}
+
+header{
+
+}
+h1{
+    text-align: center;
+}
+
+
+
+
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
