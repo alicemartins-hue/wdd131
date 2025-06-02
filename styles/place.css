@@ -6,7 +6,7 @@
 body{
     color:rgb(45, 45, 17);
     background-color: var(--color);
-    font-family: var(--font-family);
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
