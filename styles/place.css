@@ -1,8 +1,12 @@
+:root {
+    --font-family:'Roboto',sans-serif;
+    --color: bisque;
 
+}
 body{
     color:rgb(45, 45, 17);
-    background-color: bisque;
-    font-family: Roboto;
+    background-color: var(--color);
+    font-family: var(--font-family);
 }
 
 header{
@@ -58,3 +62,8 @@ footer{
 #currentYear{
     font-weight: bold;
 }
+
+.weather::after {
+    content: " ";
+    margin-left: 6px;
+    font-size: 1.2rem; }
