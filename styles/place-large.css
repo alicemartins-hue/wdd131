@@ -38,4 +38,10 @@
     h1{
         font-size: xx-large;
     }
+
+    .title::after {
+            content: " ⛅";
+            margin-left:06px;
+            font-size: 3.2rem;   
+     }
 }
