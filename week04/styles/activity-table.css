@@ -1,0 +1,60 @@
+:root{
+    --color: rgba(0, 0, 0, 0.76);
+    --color-destaque: rgb(231, 240, 243);
+    --color-back: rgb(15, 142, 164);
+}
+
+
+body{
+    padding: 5%;
+}
+
+table{
+    width: 400px;
+    border: 1px solid var(--color);
+    border-collapse: collapse;
+}
+
+
+.ops{
+    background-color: grey;
+    color: black;
+}
+.blank{
+    background-color: var(--color);
+}
+
+caption {
+    caption-side: bottom;
+    font-size: smaller;
+    padding: 0.2rem;
+}
+
+td, th{
+    padding: 0.5em 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    white-space: pre;
+}
+
+thead th, tbody td{
+    text-align: center;
+
+}
+
+thead{
+    color:var(--color-destaque);
+    background: var(--color);
+
+}
+
+th{
+    padding: 1rem;
+    font-size: larger;
+}
+
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(96, 213, 255, 0.292);
+}
+
+
