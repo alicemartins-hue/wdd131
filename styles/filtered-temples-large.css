@@ -1,0 +1,53 @@
+@media (min-width: 768px){
+    main h2{
+        text-align: center;
+        justify-content: center;
+        text-decoration: underline;
+        margin-top: 55px;
+    }
+    figcaption{
+        text-align: center;
+        justify-content: center;
+    }
+    figure{
+        margin: 10px;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto;
+        justify-content: center;
+        margin-bottom: 50px;
+    } 
+
+    div {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        display: grid;
+    }
+    
+    section {
+        padding: 15px;
+        box-shadow: 1px 5px 55px 5px rgba(128, 128, 128, 0.581);
+        margin: 20px;
+        border-radius: 22px;
+    }
+    
+    section h3 {
+        justify-self: center;
+        color: #36454f;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    section p {
+        margin: 2px;
+    }
+    
+    section img {
+        width: 300px;
+        height: 200px;
+        border: 1px solid gray;
+        margin-top: 25px;   }
+ 
+
+}

@@ -16,6 +16,43 @@ header p{
 
 }
 
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+div {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    display: grid;
+}
+
+section {
+    padding: 15px;
+    box-shadow: 1px 5px 55px 5px rgba(128, 128, 128, 0.581);
+    margin: 20px;
+    border-radius: 22px;
+}
+
+section h3 {
+    justify-self: center;
+    color: #36454f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section p {
+    margin: 2px;
+}
+
+section img {
+    width: 300px;
+    height: 200px;
+    border: 1px solid gray;
+    margin-top: 25px;
+}
 
 #menu-button {
     font-size: 2rem;
@@ -31,6 +68,7 @@ main {
 }
 
 h1, h2 {
+    justify-self: center;
     font-size: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color:#36454f;
@@ -50,7 +88,7 @@ nav ul {
 
 nav a {
     display: flex;
-    color: #f8f2f2;
+    color: #fff;
     text-align: center;
     padding: 1rem;
     text-decoration: none;
@@ -80,7 +118,7 @@ main{
         display: none;
         flex-direction: column;
         gap: 10px;
-        background: #142c2e;
+        background: #36454f;
         padding: 10px;
         margin-top: 10px;
     }
