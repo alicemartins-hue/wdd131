@@ -24,12 +24,6 @@ main {
     margin-bottom: 50px;
 }
 
-div {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    display: grid;
-}
-
 section {
     padding: 15px;
     box-shadow: 1px 5px 55px 5px rgba(128, 128, 128, 0.581);
@@ -45,6 +39,7 @@ section h3 {
 
 section p {
     margin: 2px;
+    
 }
 
 section img {
@@ -52,6 +47,7 @@ section img {
     height: 200px;
     border: 1px solid gray;
     margin-top: 25px;
+
 }
 
 #menu-button {
