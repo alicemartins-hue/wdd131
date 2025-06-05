@@ -16,6 +16,11 @@ header p{
 
 }
 
+body{
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
 main {
     display: grid;
     grid-template-columns: 1fr;
