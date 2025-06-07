@@ -19,6 +19,6 @@ body {
 
 h1,h2{
     font-family: var(--font-heading);
-    color: var(--primary-color);
+    color: #256024;
 }
 
