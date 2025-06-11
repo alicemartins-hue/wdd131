@@ -89,15 +89,27 @@ nav a:hover {
     }
 }
 
-.hero{
-}
-
-
 .hero img{
     
 }
 
+.hero{
+    background-image: url('lençoismaranhenses.webp');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
 
+.overlay-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
 
 
 
