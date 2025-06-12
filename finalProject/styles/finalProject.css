@@ -91,12 +91,21 @@ nav a:hover {
 .hero img{
     justify-self: center;
     align-items: center;
-    display: absolute;
     top: 50px;
+    max-width: 100%;
+    height: auto;
+    margin: 0%;
 }
 
-.hero{
-    display: relative;
+.hero p{
+    padding: 50px;
+    padding-top:0%;
+    font-size:large;
+}
+.hero h2{
+    padding-top: 25px;
+    justify-self: center;
+    font-size: xx-large;
 }
 
 
@@ -117,6 +126,16 @@ nav a:hover {
 .aboutus h3{
     font-size: x-large;
     align-self: center;
+}
+
+.aboutus p{
+    margin:2%;
+}
+
+.aboutus a{
+    text-align: center;
+    padding-top: 10px;
+    color: #873F2C;
 }
 .aboutus figure{
     grid-row: 3;
