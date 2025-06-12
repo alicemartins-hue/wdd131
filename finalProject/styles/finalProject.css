@@ -59,8 +59,7 @@ nav a:hover {
     font-size: 2rem;
     background: var(--color-object3);
     border: 3px solid var(--color-object2);
-    border-radius: 15px;
-    box-shadow: 1px 3px 5px var(--color-object2);
+    border-radius: 10px;
     cursor: pointer;
     display: none;
     color: var(--background);
@@ -99,6 +98,58 @@ nav a:hover {
 .hero{
     display: relative;
 }
+
+
+.about{
+    display:block;
+    background-color: #728e72ae;
+    padding: 60px;
+}
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 2px 1px 5px 2px #728e72;
+    justify-items: center;
+}
+.aboutus h3{
+    font-size: x-large;
+    align-self: center;
+}
+.aboutus figure{
+    grid-row: 3;
+    display:block;
+    align-self: center;
+}
+.aboutus figure img{
+    border: 1px solid white;
+    border-radius: 50px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 footer{
