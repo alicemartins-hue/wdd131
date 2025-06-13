@@ -23,6 +23,20 @@ h2 {
     color: var(--primary-color);
 }
 
+div h2 {
+    padding-top: 55px;
+    justify-self: center;
+    font-size: xx-large;
+}
+
+section{
+    margin: 20px;
+    background-color: #6a916b6e;
+}
+div{
+
+}
+
 header img{
     justify-self: center;
     display: block;
@@ -102,11 +116,6 @@ nav a:hover {
     padding-top:0%;
     font-size:large;
 }
-.hero h2{
-    padding-top: 25px;
-    justify-self: center;
-    font-size: xx-large;
-}
 
 
 .about{
@@ -148,8 +157,62 @@ nav a:hover {
 }
 
 
+.carousel {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-images img {
+    width: 100%;
+    display: none;
+}
+
+.carousel-images img.active {
+    display: block;
+}
+
+button.prev,
+button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
 
 
+
+.carousel{
+    justify-content: center;
+    display: flex;
+    width: 450px;
+    height:auto;
+
+}
+
+.carousel img{
+    border-radius: 35px;
+}
+
+.experience p{
+    padding: 40px;
+    align-self: center;
+}
 
 
 

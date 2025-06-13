@@ -20,3 +20,27 @@ menuButton.addEventListener("click", () => {
         navMenu.classList.contains("show") ? "Fechar menu" : "Abrir menu"
     );
 });
+
+
+
+
+let currentIndex = 0;
+const images = document.querySelectorAll('.carousel-images img');
+
+function showImage(index) {
+    images.forEach(img => img.classList.remove('active'));
+    images[index].classList.add('active');
+}
+
+function nextSlide() {
+    currentIndex = (currentIndex + 1) % images.length;
+    showImage(currentIndex);
+}
+
+function prevSlide() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    showImage(currentIndex);
+}
+
+
+
