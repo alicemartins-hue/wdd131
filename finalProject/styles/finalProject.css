@@ -215,62 +215,6 @@ button.next {
 }
 
 
-.about{
-    display:block;
-    background-color: #728e72ae;
-    padding: 60px;
-}
-.aboutus{
-    display: flex;
-    flex-direction: column;
-    background-color: var(--background);
-    padding: 50px;
-    border-radius: 20px;
-    box-shadow: 2px 1px 5px 2px #728e72;
-    justify-items: center;
-}
-.aboutus h3{
-    font-size: x-large;
-    align-self: center;
-}
-
-.aboutus p{
-    margin:2%;
-}
-
-.aboutus a{
-    text-align: center;
-    padding-top: 10px;
-    color: #873F2C;
-}
-.aboutus figure{
-    display:block;
-    align-self: center;
-}
-.aboutus figure img{
-    border: 1px solid white;
-    border-radius: 50px
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer{
     justify-items: center;
