@@ -24,14 +24,13 @@ h2 {
 }
 
 div h2 {
-    padding-top: 55px;
     justify-self: center;
     font-size: xx-large;
 }
 
 section{
-    margin: 20px;
-    background-color: #6a916b6e;
+    margin: 10px;
+    background-color: #728e726e;
 }
 div{
 
@@ -112,50 +111,39 @@ nav a:hover {
 }
 
 .hero p{
-    padding: 50px;
-    padding-top:0%;
-    font-size:large;
+    padding: 0px 50px 0px 50px;
 }
 
-
-.about{
-    display:block;
-    background-color: #728e72ae;
-    padding: 60px;
-}
-.aboutus{
-    display: flex;
-    flex-direction: column;
-    background-color: var(--background);
-    padding: 50px;
-    border-radius: 20px;
-    box-shadow: 2px 1px 5px 2px #728e72;
-    justify-items: center;
-}
-.aboutus h3{
-    font-size: x-large;
-    align-self: center;
+.content{
+    background-color: #f6f7f6 ;
+    padding: 10px;
 }
 
-.aboutus p{
-    margin:2%;
+.experienceSec {
+    padding: 20px;
+    background-color: #c7e13963;
 }
 
-.aboutus a{
+.experience {
+    background-color:#f6f7f6;
+    margin: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    box-shadow: 2px 1px 5px 2px #accb2e81;
+}
+
+.experience p{
+    padding: 0px 50px 10px 50px ;
+    justify-self: center;
     text-align: center;
-    padding-top: 10px;
-    color: #873F2C;
 }
-.aboutus figure{
-    grid-row: 3;
-    display:block;
-    align-self: center;
-}
-.aboutus figure img{
-    border: 1px solid white;
-    border-radius: 50px
+.experience a{
+    color:#873F2C;
 }
 
+.experience h3{
+    justify-self: center;
+}
 
 .carousel {
     position: relative;
@@ -197,22 +185,58 @@ button.next {
 
 
 
-.carousel{
+.carousel {
     justify-content: center;
     display: flex;
     width: 450px;
-    height:auto;
+    height: auto;
 
 }
 
-.carousel img{
+.carousel img {
     border-radius: 35px;
 }
 
-.experience p{
-    padding: 40px;
+
+
+
+.about{
+    display:block;
+    background-color: #728e72ae;
+    padding: 60px;
+}
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 2px 1px 5px 2px #728e72;
+    justify-items: center;
+}
+.aboutus h3{
+    font-size: x-large;
     align-self: center;
 }
+
+.aboutus p{
+    margin:2%;
+}
+
+.aboutus a{
+    text-align: center;
+    padding-top: 10px;
+    color: #873F2C;
+}
+.aboutus figure{
+    display:block;
+    align-self: center;
+}
+.aboutus figure img{
+    border: 1px solid white;
+    border-radius: 50px
+}
+
 
 
 
