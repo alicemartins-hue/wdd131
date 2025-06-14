@@ -262,3 +262,27 @@ footer{
     font-size: small;
 
 }
+
+.aboutus button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 25px 10px 25px;
+    background-color: #728e729c;
+    width: 100px;
+    height: 30px;
+    align-self: center;
+    margin-top: 0px;
+
+}
+
+.aboutus button a{
+    text-decoration: none;
+    color:var(--background);
+    
+}
+
+.subtitle {
+    padding-top: 50px;
+    font-size: small;
+}
+
