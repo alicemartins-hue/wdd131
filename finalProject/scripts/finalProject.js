@@ -46,10 +46,10 @@ function prevSlide() {
 
 
 const destinations = [
-    { name: "Rio de Janeiro", description: "Famous for its beaches and Christ the Redeemer.", image: "images/rio.jpg" },
-    { name: "Salvador", description: "Known for its colonial architecture and Afro-Brazilian culture.", image: "images/salvador.jpg" },
-    { name: "Lençóis Maranhenses", description: "Unique white sand dunes and blue lagoons.", image: "images/lencois.jpg" },
-    { name: "Florianópolis", description: "Beautiful beaches and charming island atmosphere.", image: "images/florianopolis.jpg" }
+    { name: "Rio de Janeiro", description: "Famous for its beaches and Christ the Redeemer.", image: "images/riodejaneiro.webp" },
+    { name: "Salvador", description: "Known for its colonial architecture and Afro-Brazilian culture.", image: "images/salvador.webp" },
+    { name: "Lençóis Maranhenses", description: "Unique white sand dunes and blue lagoons.", image: "images/lencois3.webp" },
+    { name: "Florianópolis", description: "Beautiful beaches and charming island atmosphere.", image: "images/florianopolis.webp" }
 ];
 
 
