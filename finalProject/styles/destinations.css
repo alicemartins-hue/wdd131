@@ -42,3 +42,7 @@
 .destination-card button:hover {
     background-color: #1a252f;
 }
+
+main h2{
+    text-align: center;
+}
