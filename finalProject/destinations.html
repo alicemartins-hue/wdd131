@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brazilian Cities Guide</title>
+    <title>Destinations | Brazilian Cities Guide</title>
     <meta name="author" content="Alice Candido Martins">
-    <meta name="description" content="Final Project - Travel Agency on focus in Brazilian Cities">
+    <meta name="description" content="Destinations page - Brazilian Cities Guide - Travel Agency">
 
     <link rel="stylesheet" href="styles/finalProject.css">
-    <link rel="stylesheet" href="styles/finalProject-large.css">
+    <link rel="stylesheet" href="styles/destinations.css">
     <script src="scripts/finalProject.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,81 +17,28 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
-
 </head>
 
 <body>
     <header>
-
         <img src="images/Brazilian Cities Guide.png" alt="logo" width="400" height="auto">
         <button id="menu-button" aria-label="open menu">☰</button>
         <nav id="nav-menu">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="destinations.html">Destination</a></li>
                 <li><a href="contactUs.html">Contact Us</a></li>
                 <li><a href="aboutUs.html">About Us</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
-        <section class="hero">
-            <div class="content">
-                <h2>Travel with us</h2>
-                <p>Discover the vibrant destinations featured on <strong>Brazilian Cities Guide</strong>.</p>
-                <p> From the lively streets of Rio de Janeiro to
-                    the cultural heart of Salvador, our website takes you through the most iconic and hidden gems across
-                    Brazil.</p>
-            </div>
-        </section>
-
-
-        <section class="experienceSec">
-            <div class="experience">
-                <h2>Experience The Best</h2>
-                <div class="carousel">
-                    <button class="prev" onclick="prevSlide()">&#10094;</button>
-
-                    <div class="carousel-images">
-                        <img src="images/experiences.webp" class="active" alt="Image 1" loading="lazy">
-                        <img src="images/experiences2.webp" alt="Image 2">
-                        <img src="images/e3.webp" alt="Image 3">
-                    </div>
-
-                    <button class="next" onclick="nextSlide()">&#10095;</button>
-                </div>
-                <h3>People, music, sun and much more.</h3>
-                <p>Traveling is opening the door to new experiences. Do you want to listen to music, dance, or go on an
-                    adventure?</p>
-                <p><strong><a href="destinations.html">Click here</a> and choose your next destination.</strong>
-                </p>
-            </div>
-        </section>
-        <div class="phrase">
-            <h2>Travel, collect timeless moments.</h2>
-        </div>
-
-        <section class="about">
-            <div class="aboutus">
-                <h3>About us</h3>
-                <p>At <strong>Brazilian Cities Guide</strong>,we are passionate about connecting travelers with the
-                    heart and
-                    soul of Brazil. We believe that travel is not just about
-                    visiting new places—it’s about experiencing the culture, flavors, landscapes, and stories that make
-                    each
-                    city unique.</p>
-                <p><strong><a href="aboutUs.html">Join us,</a> and discover the beauty of Brazil, one city at a
-                        time.</strong>
-                </p>
-            </div>
-        </section>
-
-        <div class="phrase">
-            <h2>When is your next flight?</h2>
-            <button><a href="contactUs.html">Contact Us</a></button>
-        </div>
-
+        <h2>Explore Our Destinations</h2>
+        <div id="favorite-destination" class="favorite"></div>
+        <div id="destinations-container" class="destinations-grid"></div>
     </main>
+
     <footer>
         <p id="currentYear" class="big"></p>
         <p id="lastModified" class="small"></p>
