@@ -101,3 +101,24 @@ footer{
 footer .small{
     font-size: small;
 }
+
+
+.contador {
+    font-size: small;
+    color: blue;
+    text-align: center;
+}
+
+.reviewM {
+    height: 500px;
+}
+.reviewM section{
+    padding-left: 30px;
+    margin-bottom: 50px;
+    
+}
+
+.upp{
+    background-color: rgba(127, 255, 212, 0.271);
+    padding: 30px;
+}

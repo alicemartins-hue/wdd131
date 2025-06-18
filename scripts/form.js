@@ -49,3 +49,9 @@ reviewCount++;
 localStorage.setItem("reviewCount", reviewCount);
 
 console.log(`You alredy sended ${reviewCount} review(s).`);
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("reviewCounter").textContent = reviewCount;
+    populateProducts();
+});
