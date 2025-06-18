@@ -8,6 +8,7 @@
     <meta name="description" content="Form - W05 Assingment - WDD131">
 
     <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
 
 </head>
@@ -30,7 +31,7 @@
                     </select>
                 </div>
                 <div class="rating">
-                    <div>Overall Rating</div>
+                    <p>Overall Rating</p>
                     <input type="radio" id="overallRating1" name="rating" value="☆" required>
                     <label for="overallRating1">☆</label>
 
@@ -48,23 +49,26 @@
                 </div>
 
                 <div class="date">
-                    <label for="date">Antecipated Completion Date </label> <input type="date" id="date" name="completeDate" required>
+                    <label for="date">Antecipated Completion Date </label> 
+                    <input type="date" id="date" name="completeDate" required>
                 </div>
 
                 <div class="feature">
-                    <div>Which features did you find useful in the product?</div>
+                    <p>Which features did you find useful in the product?</p>
+                    <p class="featureSmall">(Cheack all that apply)</p>
                     
-                    <input type="checkbox" id="feature1" name="features" value="durability">
-                    <label for="feature1">Durability</label>
                     
-                    <input type="checkbox" id="feature2" name="features" value="easeOfUse">
-                    <label for="feature2">Ease of Use</label>
+                    <label for="feature1"><input type="checkbox" id="feature1" name="features" value="durability">
+                    Durability</label>
                     
-                    <input type="checkbox" id="feature3" name="features" value="perfomance">
-                    <label for="feature3">Performance</label>
+                    <label for="feature2"></label><input type="checkbox" id="feature2" name="features" value="easeOfUse">
+                    Ease of Use</label>
                     
-                    <input type="checkbox" id="feature4" name="features" value="design">
-                    <label for="feature4">Design</label>
+                    <label for="feature3"></label><input type="checkbox" id="feature3" name="features" value="perfomance">
+                    Performance</label>
+                    
+                    <label for="feature4"></label><input type="checkbox" id="feature4" name="features" value="design">
+                    Design</label>
 
                 </div>
 

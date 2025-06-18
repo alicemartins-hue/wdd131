@@ -1,0 +1,103 @@
+
+:root{
+    --principal-color: ;
+
+}
+
+body{
+    background-color: aliceblue;
+    color: ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div{
+    padding: 10px;
+    background-color: rgba(0, 128, 128, 0.126);
+    margin: 10px;
+    
+}
+
+.product select{
+    display: block;
+    margin-top: 5px;
+    width: 300px;
+    height: 30px;
+    color: gray;
+}
+
+.date {
+    display: block;
+}
+
+.wf1 input[type="date"],
+.wf1 input[type="text"] {
+    display: block;
+    margin-top: 5px;
+    width: 300px;
+}
+
+.wf1 input[type="date"]{
+    height: 30px;
+}
+
+.featureSmall {
+    font-size: small;
+    font-style: italic;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+
+.feature p {
+    margin: 0px;
+}
+
+.feature label{
+    display: block;
+}
+
+.review label{
+    display: block;
+}
+
+.review textarea{
+    width: 300px;
+}
+
+.wf1 input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+.name{
+    
+    padding: 20px 0px 30px 10px;
+}
+
+
+.buttonstyle{
+    color:rgb(2, 2, 2);
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: rgba(0, 128, 128, 0.299);
+    margin: 20px;
+    box-shadow: 3px 4px 6px rgb(125, 118, 118);
+    display:flex;
+    justify-self:center ;
+
+}
+
+
+footer{
+    background-color:rgba(0, 128, 128, 0.453);
+    margin: 0px;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    font-weight: bolder;
+
+}
+
+footer .small{
+    font-size: small;
+}
