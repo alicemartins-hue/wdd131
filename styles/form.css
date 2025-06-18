@@ -1,12 +1,7 @@
 
-:root{
-    --principal-color: ;
-
-}
-
 body{
     background-color: aliceblue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Funnel Sans", sans-serif;
 }
 
 div{
