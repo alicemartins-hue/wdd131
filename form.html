@@ -17,7 +17,70 @@
     </header>
     <main>
         <form method="get" action="review.html" class="wf1">
+            <fieldset>
+                <div class="product">
+                    <label for="productName">Product Name</label>
+                    <select id="productName" name="product" required>
+                        <option value="" disabled selected>Choose a Product...</option>
+                        <option value="a"> a </option>
+                        <option value="b"> b </option>
+                        <option value="c"> c </option>
+                        <option value="d"> d </option>
+                        <option value="e"> e </option>
+                    </select>
+                </div>
+                <div class="rating">
+                    <div>Overall Rating</div>
+                    <input type="radio" id="overallRating1" name="rating" value="☆" required>
+                    <label for="overallRating1">☆</label>
 
+                    <input type="radio" id="overallRating2" name="rating" value="☆☆" >
+                    <label for="overallRating2">☆☆</label>
+
+                    <input type="radio" id="overallRating3" name="rating" value="☆☆☆" >
+                    <label for="overallRating3">☆☆☆</label>
+                    <input type="radio" id="overallRating4" name="rating" value="☆☆☆☆" >
+                    <label for="overallRating4">☆☆☆☆</label>
+                    
+                    <input type="radio" id="overallRating5" name="rating" value="☆☆☆☆☆">
+                    <label for="overallRating5">☆☆☆☆☆</label>
+
+                </div>
+
+                <div class="date">
+                    <label for="date">Antecipated Completion Date </label> <input type="date" id="date" name="completeDate" required>
+                </div>
+
+                <div class="feature">
+                    <div>Which features did you find useful in the product?</div>
+                    
+                    <input type="checkbox" id="feature1" name="features" value="durability">
+                    <label for="feature1">Durability</label>
+                    
+                    <input type="checkbox" id="feature2" name="features" value="easeOfUse">
+                    <label for="feature2">Ease of Use</label>
+                    
+                    <input type="checkbox" id="feature3" name="features" value="perfomance">
+                    <label for="feature3">Performance</label>
+                    
+                    <input type="checkbox" id="feature4" name="features" value="design">
+                    <label for="feature4">Design</label>
+
+                </div>
+
+                <div class="review">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" ></textarea>
+                </div>
+
+                <div class="name">
+                    <label for="yourName">Your Name </label>
+                    <input type="text" id="yourName" name="name" value=""  >
+                </div>
+
+                <input type="submit" class="buttonstyle" value="Post Review" >
+
+            </fieldset>
         </form>
     </main>
     <footer>
